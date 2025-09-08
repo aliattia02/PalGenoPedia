@@ -67,8 +67,20 @@ Gaza Crisis Documentation/
     └── hunger-crisis-stats.js              # 🍽️ Hunger crisis page interactions (if exists) Calorie deficits
 │           ├── hunger-aid-blocked.html           # 🚫 Aid requests denied
 │           ├── hunger-donations-blocked.html     # 📦 I
-
-
+│
+└── ⚙️ BACKEND
+    └── incident-extractor/                 # Flask backend app
+        ├── app.py                          # Flask application entrypoint
+        ├── requirements.txt                # Python dependencies
+        ├── static/
+        │   └── css/
+        │       └── styles.css              # CSS for backend UI
+        ├── templates/
+        │   └── index.html                  # HTML for backend app
+        └── extractor/
+            ├── __init__.py
+            ├── text_parser.py              # Text extraction logic
+            └── url_parser.py               # URL extraction logic
 
 
 
